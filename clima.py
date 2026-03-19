@@ -51,7 +51,7 @@ if btn:
     col1, col2 = st.columns([1, 1])
 
     with col1:
-        st.subheader("📊 Análisis Matemático (HI)")
+        st.subheader("📊 Indice de calor")
         
         fig = go.Figure(go.Indicator(
             mode = "gauge+number",
@@ -88,7 +88,7 @@ if btn:
         st.markdown("<br>", unsafe_allow_html=True)
         
         
-        st.subheader("📝 Notas Médicas y de Seguridad (IA)")
+        st.subheader("📝 Notas Médicas y de Seguridad")
         with st.spinner("La IA está analizando el riesgo..."):
            
             tipo_clima = "FRÍO extremo" if temp_usuario < 18 else "CALOR extremo"
