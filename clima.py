@@ -6,8 +6,8 @@ import google.generativeai as genai_old
 
 # 1. CONFIGURACIÓN DE TUS LLAVES (KEYS)
 
-API_KEY_GOOGLE = "AIzaSyBxfiysyhP2LyfrGWFWiQzGpZdE1VmZqYQ"
-API_KEY_CLIMA = "4ef79cf5ba7807d6369b12d607c951ff"
+API_KEY_GOOGLE = st.secrets["GOOGLE_API_KEY"]
+API_KEY_CLIIMA = st.secrets["CLIMA_API_KEY"]
 
 genai_old.configure(api_key=API_KEY_GOOGLE)
 model_ia = genai_old.GenerativeModel('gemini-2.5-flash')
