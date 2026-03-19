@@ -10,7 +10,7 @@ API_KEY_GOOGLE = st.secrets["GOOGLE_API_KEY"]
 API_KEY_CLIMA = st.secrets["CLIMA_API_KEY"]
 
 genai_old.configure(api_key=API_KEY_GOOGLE)
-model_ia = genai_old.GenerativeModel('gemini-2.5-flash')
+model_ia = genai_old.GenerativeModel('gemini-1.5-flash')
 
 
 # FUNCIONES DE LÓGICA
