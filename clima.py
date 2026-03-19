@@ -4,7 +4,7 @@ import requests
 import google.generativeai as genai_old
 
 
-# 1. CONFIGURACIÓN DE TUS LLAVES (KEYS)
+#CONFIGURACIÓN DE TUS LLAVES
 
 API_KEY_GOOGLE = st.secrets["GOOGLE_API_KEY"]
 API_KEY_CLIIMA = st.secrets["CLIMA_API_KEY"]
