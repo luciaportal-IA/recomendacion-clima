@@ -1,4 +1,4 @@
-RECOMENDACION CLIMATICO
+# RECOMENDACION CLIMATICO
 Este software es un asistente inteligente desarrollado en Python que analiza las condiciones climáticas para ofrecer 
 recomendaciones personalizadas sobre salud, vestimenta y actividades. Está diseñado para ayudar a los usuarios a mitigar
 los riesgos del clima extremo.
@@ -9,10 +9,11 @@ los riesgos del clima extremo.
 -Incluye advertencias específicas para prevenir golpes de calor o hipotermia.
 -Presenta la información de manera clara y directa para una rápida toma de decisiones.
 
-#Tecnologías usadas
--Lenguaje: Python 
--Lógica: Estructuras condicionales avanzadas para la toma de decisiones.
--Interfaz: (Si usaste consola pon "CLI", si usaste ventanas pon "Tkinter" o "CustomTkinter").
+# Tecnologías usadas
+*Lenguaje: Python 3.x
+*Streamlit (para una experiencia web interactiva y moderna).
+*Inteligencia Artificial para la generación de consejos personalizados.
+*Requests para el consumo de la API de Clima en tiempo real.
 
-👤 Autora
+# Autora
 Desarrollado por Lucía Portal Uipan - Estudiante de la carrera de Ingenieria de Sistemas
