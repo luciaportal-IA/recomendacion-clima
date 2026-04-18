@@ -10,7 +10,7 @@ los riesgos del clima extremo.
 * Presenta la información de manera clara y directa para una rápida toma de decisiones.
 
 # Tecnologías usadas
-* Lenguaje: Python 3.x
+* Lenguaje: Python 
 * Streamlit (para una experiencia web interactiva y moderna).
 * Inteligencia Artificial para la generación de consejos personalizados.
 * Requests para el consumo de la API de Clima en tiempo real.
