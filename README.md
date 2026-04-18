@@ -1,4 +1,4 @@
-# RECOMENDACION CLIMATICO
+# RECOMENDACIÓN CLIMATICO
 Este software es un asistente inteligente desarrollado en Python que analiza las condiciones climáticas para ofrecer 
 recomendaciones personalizadas sobre salud, vestimenta y actividades. Está diseñado para ayudar a los usuarios a mitigar
 los riesgos del clima extremo.
